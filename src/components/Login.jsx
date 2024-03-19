@@ -2,10 +2,10 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-export default function Form() {
+export default function Login() {
     return (
         <div className='bg-gray-100 px-10 py-20 rounded-3xl borders-2 border-gray-600 shadow-2xl'>
-            <h1 className='text-5xl font-semibold'>Welcome Back</h1>
+            <h1 className='text-5xl font-semibold'>Welcome Back!</h1>
             <p className='font-medium text-lg text-gray-500 mt-4 text-center'> Please enter your details.</p>
             <div className='mt-8'>
                 <div>
