@@ -30,6 +30,7 @@ export default function Login() {
                     </div>
                     <button className='px-1 py-0 mt-2 rounded-lg bg-pink-300 drop-shadow-xl'>Forgot password?</button>
                     <button className='w-full border-2 rounded-xl p-4 mt-11  bg-pink-300 drop-shadow-lg'>Login</button>
+                    <p className='px-0 py-0 font-medium text-base text-gray-500 mt-4 text-center hover:text-pink-300 cursor-pointer'>Don't have an account? Signup here</p>
                 </div>
             </div>
         </div>
