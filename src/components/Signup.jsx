@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Signup() {
+        const [name, setName] = useState()
+        const [email, setEmail] = useState()
+        const [password, setPassword] = useState()
+
     return (<div className='flex flex-col items-center justify-center gap-4 p-4 bg-center mx-0 my-0 m-8 bg-fuchsia-50 rounded-3xl borders-2 border-gray-600 shadow-2xl'>
     <h1 className='mt-10 text-5xl font-semibold'>Register</h1>
     <div className='mt-8'>
@@ -9,7 +13,7 @@ export default function Signup() {
             <label className='text-lg font-medium'>Name</label>
             <input 
                 className='w-full border-2 border-white-100 rounded-xl p-4 mt-1 bg-white' 
-                placeholder="Enter your email" 
+                placeholder="Enter your name" 
             />
         </div>
         <div>
