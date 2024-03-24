@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
-        <div className='bg-gray-100 px-10 py-20 rounded-3xl borders-2 border-gray-600 shadow-2xl'>
-            <h1 className='text-5xl font-semibold'>Welcome Back!</h1>
-            <p className='font-medium text-lg text-gray-500 mt-4 text-center'> Please enter your details.</p>
+        <div className='flex flex-col items-center justify-center gap-4 p-4 bg-center mx-0 my-0 m-8 bg-fuchsia-50 rounded-3xl borders-2 border-gray-600 shadow-2xl'>
+            <h1 className='mt-10 text-5xl font-semibold'>Welcome Back!</h1>
             <div className='mt-8'>
                 <div>
                     <label className='text-lg font-medium'>Email</label>
@@ -28,9 +27,9 @@ export default function Login() {
                         />
                         <label for="remember" className='px-2'>Remember me</label>
                     </div>
-                    <button className='px-1 py-0 mt-2 rounded-lg bg-pink-300 drop-shadow-xl'>Forgot password?</button>
-                    <button className='w-full border-2 rounded-xl p-4 mt-11  bg-pink-300 drop-shadow-lg'>Login</button>
-                    <p className='px-0 py-0 font-medium text-base text-gray-500 mt-4 text-center hover:text-pink-300 cursor-pointer'>Don't have an account? Signup here</p>
+                    <button className='px-1 py-0 mt-4 mb-3 rounded-lg bg-pink-200 drop-shadow-xl'>Forgot password?</button>
+                    <button className='w-full border-2 rounded-xl p-4 mt-11  bg-pink-200 drop-shadow-lg'>Login</button>
+                    <p className='px-0 py-0 font-medium text-base text-gray-500 mt-10 mb-10 text-center hover:text-pink-200 cursor-pointer'>Don't have an account? Signup here</p>
                 </div>
             </div>
         </div>
