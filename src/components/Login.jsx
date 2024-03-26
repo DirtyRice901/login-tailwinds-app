@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-export default function Login() {
+function Login() {
     return (
         <div className='flex flex-col items-center justify-center gap-4 p-4 bg-center mx-0 my-0 m-8 bg-fuchsia-50 rounded-3xl borders-2 border-gray-600 shadow-2xl'>
             <h1 className='mt-10 text-5xl font-semibold'>Welcome Back!</h1>
@@ -25,7 +25,7 @@ export default function Login() {
                             type="checkbox"
                             id="remember"
                         />
-                        <label for="remember" className='px-2'>Remember me</label>
+                        <label htmlFor="remember" className='px-2'>Remember me</label>
                     </div>
                     <button className='px-1 py-0 mt-4 mb-3 rounded-lg bg-pink-200 drop-shadow-xl'>Forgot password?</button>
                     <button className='w-full border-2 rounded-xl p-4 mt-11  bg-pink-200 drop-shadow-lg'>Login</button>
@@ -35,3 +35,5 @@ export default function Login() {
         </div>
     )
 }
+
+export default Login;

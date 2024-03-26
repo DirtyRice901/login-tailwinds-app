@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Signup />} />
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/register" element={<Signup />}></Route>
       </Routes>
     </BrowserRouter>
     // <div className="flex w-full h-screen">
